@@ -1,0 +1,25 @@
+//Get quote Section
+.client-banner {
+    background-color: #222222;
+}
+.quote-text {
+    color: white;
+    font-family: $crimson;
+    font-size: 1.3rem;
+    margin: 0;
+}
+.quote-text span {
+    color: $accentColor;
+}
+.client-banner .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quote-button {
+    background-color: $accentColor;
+    color: $lightColor;
+    border-color: rgba(0,0,0,0);
+    white-space: nowrap;
+    margin-left: 15px;
+}

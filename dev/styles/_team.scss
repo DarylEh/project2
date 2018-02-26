@@ -1,0 +1,56 @@
+//Team section
+.team-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    color: $lightColor;
+    margin: 45px 0;
+}
+.team-member {
+    width: calc(33% - 15px);
+    margin-right: 30px;
+    position: relative;
+}
+.team-member:last-child {
+    margin-right: 0;
+}
+.team-member-image {
+    width: 100%;
+    display: block;
+}
+.team-member-name-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid $lightColor;
+    background-color: rgba(0,0,0,0.3);
+    padding: 15px;
+}
+.team-member-name, .team-member-title {
+    text-transform: uppercase;
+    margin: 0;
+}
+.team-member-name {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+.team-member-title {
+    font-family: $crimson;
+    font-size: 0.75rem;
+}
+.team-content-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.team-content-wrapper .text-main {
+    margin-bottom: 0;
+}
+.team-content-wrapper .button {
+    margin-left: 10%;
+    white-space: nowrap;
+}

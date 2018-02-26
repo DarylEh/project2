@@ -1,0 +1,176 @@
+
+.main-footer {
+    background-color: #222222;
+    color: $mainColor50;
+}
+.footer-info {
+    display: flex;
+    margin-top: 15px;
+}
+.footer-info-company-info {
+    width: 40%;
+}
+.footer-info-links {
+    width: 15%
+}
+.footer-info-twitter {
+    width: 25%;
+}
+.footer-info-instagram {
+    width: 20%;
+}
+.footer-info-company-info, .footer-info-links, .footer-info-twitter {
+    margin-right: 40px;
+}
+.footer-info-links, .footer-info-twitter, .footer-info-instagram {
+    position: relative;
+}
+
+.company-info-title, .footer-info-title {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+}
+.company-info-title {
+    color: $accentColor;
+    margin-bottom: 15px;
+}
+.company-info-description {
+    line-height: 2;
+}
+.company-info-logo {
+    opacity: 0.25;
+    width: 40%;
+    margin-top: 10px;
+}
+.footer-info-title {
+    color: $lightColor;
+}
+.footer-info-title::before {
+    content: '';
+    display: block;
+    background-color: $mainColor75;
+    width: 1px;
+    height: 250px;
+    position: absolute;
+    left: -20px;
+}
+.footer-info-title::after {
+    content: '';
+    height: 3px;
+    width: 15px;
+    display: block;
+    background-color: $accentColor;
+    position: relative;
+    top: 5px;
+}
+.footer-info-links-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-info-links-list li {
+    padding: 8px 0;
+}
+.footer-info-links-item {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    color: $mainColor50;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 8px 0;
+    transition: $allTrans;
+    font-weight: bold;
+}
+.footer-info-links-item:hover {
+    color: $accentColor;
+}
+.twitter-wrapper {
+    padding-top: 1px;
+    margin: 0;
+}
+.twitter-tweet {
+    line-height: 1.7;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.twitter-tweet a {
+    color: $mainColor50;
+    transition: $allTrans;
+    text-decoration: none;
+}
+.twitter-tweet a:hover {
+    color: $accentColor;
+}
+.twitter-date {
+    color: $mainColor75;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 18px;
+}
+.twitter-date i {
+    margin-right: 5px;
+}
+.instagram-photo-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    padding-top: 14px;
+}
+.instagram-photo-item {
+    width: calc(33% - 10px);
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: 55px;
+    background-color: $mainColor75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: $allTrans;
+}
+.instagram-photo-item:nth-child(3n) {
+    margin-right: 0;
+}
+.instagram-photo-item i {
+    opacity: 0;
+    color: $lightColor;
+    transition: $allTrans;
+}
+.instagram-photo-item:hover {
+    background-color: $accentColor;
+}
+.instagram-photo-item:hover i {
+    opacity: 1;
+}
+.footer-footnote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    margin-top: 10px;
+}
+.footenote-copyright {
+    color: $mainColor75;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.footnote-icon-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.footnote-icon-item a {
+    color: $mainColor50;
+    padding: 10px 20px;
+}
+.footnote-icon-item i {
+    position: relative;
+    left: -10px;
+}
+.footnote-icon-item:hover a {
+    color: $accentColor;
+}

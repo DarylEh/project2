@@ -1,0 +1,49 @@
+
+//Welcome Section
+.welcome-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0 auto;
+}
+.welcome-content {
+    margin-left: 100px;
+}
+.services-inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+.services {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    margin: 0;
+}
+.services-icon-border {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+    border: 1px solid $mainColor25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.services-icon {
+    font-size: 1.3rem;
+}
+.services-title {
+    text-transform: uppercase;
+    color: $mainColor;
+    font-size: 0.65rem;
+    font-weight: bold;
+}
+.welcome .button {
+    margin-top: 55px;
+}
+.vertical-logo {
+    width: 125px;
+    height: 400px;
+}

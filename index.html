@@ -5,564 +5,655 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<script src="https://use.fontawesome.com/dd362c6f7b.js"></script>
-	
-	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Montserrat:400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i|Montserrat:400,600" rel="stylesheet">
 	<title>Zap</title>
 	<link rel="stylesheet" href="public/styles/style.css">
 </head>
 <body>
-<body>
-	<header class="main-header">
+	<header>
 		<div class="wrapper">
 			<nav class="main-nav">
-				<a href="">
-					<img src="public/assets/logo.png" alt="Zap Logo">
-
+				<a href="#" class="logo-link">
+					<img src="public/assets/logo.png" alt="Zap Logo" class="nav-logo">
 				</a>
-				<label for="toggle">&#9776;</label>
-				<input type="checkbox" name="toggle" id="toggle">
-				<ul class="links">
-					<li>
-						<a href="#home">Home</a>
-					</li>
-					<li>
-						<a href="#demos">Demos</a>
-					</li>
-					<li>
-						<a href="#pages">Pages</a>
-					</li>
-					<li>
-						<a href="#portfolio">Portfolio</a>
-					</li>
-					<li>
-						<a href="#shop">Shop</a>
-					</li>
-					<li>
-						<a href="#blog"> Blog</a>
-					</li>
-				</ul>
-				<ul class="controls">
-					<li>
-						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-					</li>
-					<li>
-						<i class="fa fa-search" aria-hidden="true"></i>
-					</li>
-				</ul>
+				<div class="nav-content">
+					<form action="">
+						<label for="hamburger-menu" class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></label>
+						<input type="checkbox" name="hamburger-menu" id="hamburger-menu" class="hamburger-open">
+						<div class="menu-items">
+							<label for="hamburger-menu" class="hamburger-x"><i class="fa fa-times" aria-hidden="true"></i></label>
+							<ul class="nav-links">
+								<li class="nav-link-item">
+									<a href="#home">Home</a>
+								</li>
+								<li class="nav-link-item">
+									<a href="#demos">Demos</a>
+								</li>
+								<li class="nav-link-item">
+									<a href="#pages">Pages</a>
+								</li>
+								<li class="nav-link-item">
+									<a href="#portfolio">Portfolio</a>
+								</li>
+								<li class="nav-link-item">
+									<a href="#shop">Shop</a>
+								</li>
+								<li class="nav-link-item">
+									<a href="#blog"> Blog</a>
+								</li>
+							</ul>
+							<ul class="nav-icon-list">
+								<li class="nav-icon-item">
+									<a href=""> <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+								</li>
+								<li class="nav-icon-item">
+									<a href=""> <i class="fa fa-search" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>		
+					</form>
+				</div>
 			</nav>
-			<h1>
-				<span class="h1top">We deliver </span>
-				<br> Excellence</h1>
-			<h4>We are Creative Studio from Lon Don - UK</h4>
-			<div class="enter">
-				<a class="enter-link" href="#welcome">Enter</a>
-
+		</div>
+		<div class="title-screen">
+			<div class="page-title">
+				<h1 class="title-screen-title title-screen-title-small">We deliver</h1>
+				<h1 class="title-screen-title">Excellence</h1>
+				<p class="title-screen-des">We are Creative Studio from Lon Don - UK</p>
+				<a href="#welcome" class="title-screen-enter">
+					<p class="title-screen-enter-link">Enter</p>
+					<i class="fa fa-angle-down" aria-hidden="true"></i>
+				</a>
 			</div>
 		</div>
 	</header>
-	<section id="welcome" class="welcome wrapper">
-		<div class="welcome-logo">
-			<img src="public/assets/logo_bg.png" alt="Company Logo displayed vertically">
-		</div>
-		<div class="welcome-content">
-			<h4>Welcome The ZAP - Best Solution for Creative Websites</h4>
-			<h2>awesome multi-concept theme</h2>
-			<p>There are manu variations of passages of lorem ipsum available, but the majority have suffered alteration in some form,
-				by injected humor, or randomised words which don't look even slightly believable. If you are going to use a passafe of
-				Lorem Ipsum, you need to be sure there isn't anything embrassing hidden in the middle of text. All the lorem ipsum generators
-				on the Internet tend to repeat predefined chunks as necessary making this the first true generator on the internet.</p>
-			<div class="welcome-logos">
-				<img src="public/assets/diamond.png" alt="">
-				<p>unique design</p>
-				<img src="public/assets/camera.png" alt="">
-				<p>photography</p>
-				<img src="public/assets/wand.png" alt="">
-				<p>concept art</p>
+	<section id="welcome" class="welcome ">
+		<div class="wrapper welcome-flex">
+			<img src="public/assets/logo_bg.png" alt="Company Logo displayed vertically" class="vertical-logo">
+			<div class="welcome-content">
+				<div class="text">
+					<p class="text-pre-title">Welcome The ZAP - Best Solution for Creative Websites</p>
+					<h3 class="text-title">awesome multi-concept theme</h3>
+					<p class="text-main">There are manu variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomised words which don't look even slightly believable. If you are going to use a passafe of Lorem Ipsum,you need to be sure there isn't anything embrassing hidden in the middle of text. All the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary making this the first true generator on the internet.</p>
+				</div>
+				<div class="services-inner-wrapper">
+					<div class="services">
+						<div class="services-icon-border">
+							<i class="services-icon fa fa-diamond" aria-hidden="true"></i>
+						</div>
+						<p class="services-title">Unique design</p>
+					</div>
+					<div class="services">
+						<div class="services-icon-border">
+							<i class="services-icon fa fa-camera-retro" aria-hidden="true"></i>
+						</div>
+						<p class="services-title">Photography</p>
+					</div>
+					<div class="services">
+						<div class="services-icon-border">
+							<i class="services-icon fa fa-magic" aria-hidden="true"></i>
+						</div>
+						<p class="services-title">Concept art</p>
+					</div>
+					<a class="button" href="#">More Services</a>
+				</div>
 			</div>
-			<a class="welcome-a" href="">More Services</a>
 		</div>
 	</section>
 	<section id="demos" class="works">
-		<div class="section-header">
-			<h3>our works</h3>
-			<div class="icon-ham">
-				<img src="public/assets/hammer.png" alt="">
-
+		<div class="wrapper">
+			<div class="title-header">
+				<h2 class="title-header-title">Our Works</h2>
+				<div class="title-header-icon">
+					<i class="fa fa-gamepad"></i>
+				</div>
+				<p class="title-header-text">Show Amazing Your Works</p>
 			</div>
-			<h4>Show Amazing Your Works</h4>
+			<ul class="gallery-links">
+				<li class="gallery-links-item">
+					<a href="#">Branding Design</a>
+				</li>
+				<li class="gallery-links-item">
+					<a href="#">Photography</a>
+				</li>
+				<li class="gallery-links-item">
+					<a href="#">Web Design</a>
+				</li>
+				<li class="gallery-links-item">
+					<a href="#">Digital Art</a>
+				</li>
+				<li class="gallery-links-item">
+					<a href="#"> +</a>
+				</li>
+			</ul>
 		</div>
-		<ul class="works-nav">
-			<li>branding design</li>
-			<li>photography</li>
-			<li>web design</li>
-			<li>digital art</li>
-			<li>+</li>
-		</ul>
 		<ul class="gallery">
-			<li>
-				<img src="public/assets/gallery1.jpg" alt="">
-				<div class="overlay">
-					<img src="public/assets/overlay.png" alt="">
-				</div>
+			<li class="gallery-image-wrapper">
+				<a href="#">
+					<img src="public/assets/gallery1.jpg" alt="" class="gallery-image">
+					<div class="gallery-overlay">
+						<p class="gallery-overlay-title">Fashion</p>
+						<p class="gallery-overlay-text">Crossfit: 15.4 Open Workout</p>
+					</div>
+				</a>
 			</li>
-			<li>
-				<img src="public/assets/gallery2.jpg" alt="">
-				<div class="overlay">
-					<img src="public/assets/overlay.png" alt="">
-				</div>
+			<li class="gallery-image-wrapper">
+				<a href="#">
+					<img src="public/assets/gallery2.jpg" alt="" class="gallery-image">
+					<div class="gallery-overlay">
+						<p class="gallery-overlay-title">Fashion</p>
+						<p class="gallery-overlay-text">Crossfit: 15.4 Open Workout</p>
+					</div>
+				</a>
 			</li>
-			<li>
-				<img src="public/assets/gallery3.jpg" alt="">
-				<div class="overlay">
-					<img src="public/assets/overlay.png" alt="">
-				</div>
+			<li class="gallery-image-wrapper">
+				<a href="#">
+					<img src="public/assets/gallery3.jpg" alt="" class="gallery-image">
+					<div class="gallery-overlay">
+						<p class="gallery-overlay-title">Fashion</p>
+						<p class="gallery-overlay-text">Crossfit: 15.4 Open Workout</p>
+					</div>
+				</a>
 			</li>
-			<li>
-				<img src="public/assets/gallery4.jpg" alt="">
-				<div class="overlay">
-					<img src="public/assets/overlay.png" alt="">
-				</div>
+			<li class="gallery-image-wrapper">
+				<a href="#">
+					<img src="public/assets/gallery4.jpg" alt="" class="gallery-image">
+					<div class="gallery-overlay">
+						<p class="gallery-overlay-title">Fashion</p>
+						<p class="gallery-overlay-text">Crossfit: 15.4 Open Workout</p>
+					</div>
+				</a>
 			</li>
-			<li>
-				<img src="public/assets/gallery5.jpg" alt="">
-				<div class="overlay">
-					<img src="public/assets/overlay.png" alt="">
-				</div>
+			<li class="gallery-image-wrapper">
+				<a href="#">
+					<img src="public/assets/gallery5.jpg" alt="" class="gallery-image">
+					<div class="gallery-overlay">
+						<p class="gallery-overlay-title">Fashion</p>
+						<p class="gallery-overlay-text">Crossfit: 15.4 Open Workout</p>
+					</div>
+				</a>
 			</li>
-			<li>
-				<img src="public/assets/gallery6.jpg" alt="">
-				<div class="overlay">
-					<img src="public/assets/overlay.png" alt="">
-				</div>
+			<li class="gallery-image-wrapper">
+				<a href="#">
+					<img src="public/assets/gallery6.jpg" alt="" class="gallery-image">
+					<div class="gallery-overlay">
+						<p class="gallery-overlay-title">Fashion</p>
+						<p class="gallery-overlay-text">Crossfit: 15.4 Open Workout</p>
+					</div>
+				</a>
 			</li>
-			<li>
-				<img src="public/assets/gallery7.jpg" alt="">
-				<div class="overlay">
-					<img src="public/assets/overlay.png" alt="">
-				</div>
+			<li class="gallery-image-wrapper">
+				<a href="#">
+					<img src="public/assets/gallery7.jpg" alt="" class="gallery-image">
+					<div class="gallery-overlay">
+						<p class="gallery-overlay-title">Fashion</p>
+						<p class="gallery-overlay-text">Crossfit: 15.4 Open Workout</p>
+					</div>
+				</a>
 			</li>
-			<li>
-				<img src="public/assets/gallery8.jpg" alt="">
-				<div class="overlay">
-					<img src="public/assets/overlay.png" alt="">
-				</div>
+			<li class="gallery-image-wrapper">
+				<a href="#">
+					<img src="public/assets/gallery8.jpg" alt="" class="gallery-image">
+					<div class="gallery-overlay">
+						<p class="gallery-overlay-title">Fashion</p>
+						<p class="gallery-overlay-text">Crossfit: 15.4 Open Workout</p>
+					</div>
+				</a>
 			</li>
-		</ul>
-		<ul class="gallery-mobile">
-			<li>
-				<img src="public/assets/gallery1.jpg" alt="">
-			</li>
-			<li>
-				<img src="public/assets/gallery2.jpg" alt="">
-			</li>
-		</ul>
+		</ul>	
 	</section>
-	<section id="pages" class="services">
-		<div class="section-header">
-			<h3>our works</h3>
-			<div class="icon-ham">
-				<img src="public/assets/hammer.png" alt="">
+	<section id="pages" class="why">
+		<div class="wrapper">
+			<div class="title-header">
+				<h2 class="title-header-title">Why Choose Us</h2>
+				<div class="title-header-icon">
+					<i class="fa fa-gamepad"></i>
+				</div>
+				<p class="title-header-text">Our Mission We build Amazing Website</p>
 			</div>
-			<h4>Show Amazing Your Works</h4>
-		</div>
-		<div class="service-wrap wrapper">
-			<div class="services-content">
-				<h4>We deliver High Quality Services</h4>
-				<h2>ultra services & best support</h2>
-				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga illum eos sunt suscipit animi expedita quas minima voluptates
-					similique, dolor cum dicta, atque dolores! Voluptatem consectetur, dolores facere eos voluptas repellat ratione reprehenderit
-					dolor. Aspernatur amet laborum hic repellendus voluptate!</p>
-				<p>
-					<span>John Doe - </span>ceo/founder zap</p>
+			<div class="why-content">
+				<div class="text">
+					<p class="text-pre-title">We deliver High Quality Services</p>
+					<h3 class="text-title">ultra services & best support</h3>
+					<p class="text-main">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga illum eos sunt suscipit animi expedita quas minima voluptates similique, dolor cum dicta, atque dolores! Voluptatem consectetur, dolores facere eos voluptas repellat ratione reprehenderit dolor. Aspernatur amet laborum hic repellendus voluptate!</p>
+					<p class="text-footnote">John Doe - <span>CEO/Founder ZAP</span></p>
+				</div>
+				<img src="public/assets/cellphone.jpg" alt="" class="demo-picture">
 			</div>
-			<div class="services-image">
-				<img src="public/assets/cellphone.jpg" alt="">
-			</div>
-		</div>
-		<div class="services-detail wrapper">
-			<ul>
-				<li>
-					<div class="detail-icon">
-						<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-					</div>
-					<div class="detail-text">
-						<h3>trending</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam quasi similique aperiam facilis</p>
+			<ul class="why-list">
+				<li class="why-item">
+					<i class="why-item-icon fa fa-paper-plane-o" aria-hidden="true"></i>
+					<div class="why-item-content">
+						<h4 class="why-item-title">trending</h4>
+						<p class="why-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam quasi similique aperiam facilis</p>
 					</div>
 				</li>
-				<li>
-					<div class="detail-icon">
-						<i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-					</div>
-					<div class="detail-text">
-						<h3>smart setting</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam quasi similique aperiam facilis qui.</p>
+				<li class="why-item">
+					<i class="why-item-icon fa fa-tencent-weibo" aria-hidden="true"></i>
+					<div class="why-item-content">
+						<h4 class="why-item-title">smart setting</h4>
+						<p class="why-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam quasi similique aperiam facilis qui.</p>
 					</div>
 				</li>
-				<li>
-					<div class="detail-icon">
-						<i class="fa fa-sliders" aria-hidden="true"></i>
-					</div>
-					<div class="detail-text">
-						<h3>powerful admin</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam quasi similique aperiam facilis qui.</p>
+				<li class="why-item">
+					<i class="why-item-icon fa fa-sliders" aria-hidden="true"></i>
+					<div class="why-item-content">
+						<h4 class="why-item-title">Powerful Admin</h4>
+						<p class="why-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam quasi similique aperiam facilis qui.</p>
 					</div>
 				</li>
-				<li>
-					<div class="detail-icon">
-						<i class="fa fa-moon-o" aria-hidden="true"></i>
-					</div>
-					<div class="detail-text">
-						<h3>sleeping mode</h3>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit placeat eveniet libero. Harum, explicabo dignissimos.</p>
+				<li class="why-item">
+					<i class="why-item-icon fa fa-moon-o" aria-hidden="true"></i>
+					<div class="why-item-content">
+						<h4 class="why-item-title">Sleeping Mode</h4>
+						<p class="why-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam quasi similique aperiam facilis qui.</p>
 					</div>
 				</li>
-				<li>
-					<div class="detail-icon">
-						<i class="fa fa-heart-o" aria-hidden="true"></i>
-					</div>
-					<div class="detail-text">
-						<h3>user friendly</h3>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto magnam non corrupti, quasi mollitia sunt.</p>
+				<li class="why-item">
+					<i class="why-item-icon fa fa-heart-o" aria-hidden="true"></i>
+					<div class="why-item-content">
+						<h4 class="why-item-title">User Friendly</h4>
+						<p class="why-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam quasi similique aperiam facilis qui.e</p>
 					</div>
 				</li>
-				<li>
-					<div class="detail-icon">
-						<i class="fa fa-hdd-o" aria-hidden="true"></i>
-					</div>
-					<div class="detail-text">
-						<h3>auto backup</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, iure!</p>
+				<li class="why-item">
+					<i class="why-item-icon fa fa-hdd-o" aria-hidden="true"></i>
+					<div class="why-item-content">
+						<h4 class="why-item-title">Auto Backup</h4>
+						<p class="why-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quibusdam quasi similique aperiam facilis qui.</p>
 					</div>
 				</li>
 			</ul>
 		</div>
-		<div class="banner">
-			<div class="wrapper">
-				<ul class="stats">
-					<li>
-						<h2>35</h2>
-						<h4>Team Members</h4>
+	</section>	
+	<section class="data">
+		<div class="wrapper">
+			<ul class="data-list">
+				<li class="data-item">
+					<p class="data-item-number">35</p>
+				<p class="data-item-label">Team Members</p>
+			</li>
+				<li class="data-item">
+					<p class="data-item-number">5225</p>
+					<p class="data-item-label">Line of Codes</p>
+				</li>
+				<li class="data-item">
+					<p class="data-item-number">4977</p>
+					<p class="data-item-label">Satisfied Clients</p>
+				</li>
+				<li class="data-item">
+					<p class="data-item-number">178</p>
+					<p class="data-item-label">PSD files included</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="portfolio" class="team">
+		<div class="wrapper">
+			<div class="title-header">
+				<h2 class="title-header-title">Meet Our Team</h2>
+				<div class="title-header-icon">
+					<i class="fa fa-gamepad"></i>
+				</div>
+				<p class="title-header-text">We Make Beautiful Template</p>
+			</div>
+			<ul class="team-list">
+				<li class="team-member">
+					<img src="public/assets/heather.jpg" alt="" class="team-member-image">
+					<div class="team-member-name-wrapper">
+						<p class="team-member-name">John Snow</p>
+						<p class="team-member-title">CEO/Co-Founder</p>
+					</div>
+				</li>
+				<li class="team-member">
+					<img src="public/assets/ryan.jpg" alt="" class="team-member-image">
+					<div class="team-member-name-wrapper">
+						<p class="team-member-name">Tyrion Lannister</p>
+						<p class="team-member-title">Art Director/Co-Founder</p>
+					</div>
+				</li>
+				<li class="team-member">
+					<img src="public/assets/simon.jpg" alt="" class="team-member-image">
+					<div class="team-member-name-wrapper">
+						<p class="team-member-name">Sansa Stark</p>
+						<p class="team-member-title">Product Manager/Co-Founder</p>
+					</div>
+				</li>
+			</ul>
+			<div class="team-content-wrapper">
+				<div class="text">
+					<h3 class="text-title">ARE YOU CRAXY MAN?</h3>
+					<p class="text-main">LOREM, IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. ELIGENDI ASPERNATUR DIGNISSIMOS DICTA VERO, SUNT ERROR EARUM. LAUDANTIUM
+					AD MINUS RERUM DOLORUM IPSAM OPTIO VOLUPTATIBUS!</p>
+				</div>
+				<a href="#" class="button">join with us</a>
+			</div>
+		</div>	
+	</section>
+	<section class="client">
+		<div class="wrapper">
+			<div class="title-header">
+				<h2 class="title-header-title">Our Happy Clients</h2>
+				<div class="title-header-icon">
+					<i class="fa fa-gamepad"></i>
+				</div>
+			<p class="title-header-text">We Make Beautiful Template</p>
+			</div>
+			<form action="" class="client-form">
+				<ul class="client-list">
+					<li class="client-item">
+						<input type="radio" name="client-select" value="wes" id="wes" class="radio-button wes" checked>
+						<label for="wes" class="radio-label wes"></label>
+						<label for="wes" class="client-photo-label">
+							<img src="public/assets/wes.jpg" alt="" class="client-item-photo">
+						</label>
+						<div class="testimonial">
+							<p class="testimonial-text">Pokemon master who never gives up when the going gets tough. Best friend is a pokemon named pikchu. Thinks Gary is a piece
+							of crap.</p>
+							<div class="title-header-icon">
+								<i class="testimonial-icon fa fa-gamepad" aria-hidden="true"></i>
+							</div>
+							<p class="testimonial-name">Ash Ketchum</p>
+							<p class="testimonial-title">Pokemon Trainer</p>
+						</div>
 					</li>
-					<li>
-						<h2>5225</h2>
-						<h4>Lines of Codes</h4>
+					<li class="client-item">
+						<input type="radio" name="client-select" value="anne" id="anne" class="radio-button anne">
+						<label for="anne" class="radio-label anne"></label>
+						<label for="anne" class="client-photo-label">
+							<img src="public/assets/anne.jpg" alt="" class="client-item-photo">
+						</label>
+						<div class="testimonial">
+							<p class="testimonial-text">Space bounty hunter who has encountered numerous metriods. In her spare time she likes to save the world from total annihilation.</p>
+							<div class="title-header-icon">
+								<i class="testimonial-icon fa fa-gamepad" aria-hidden="true"></i>
+							</div>
+							<p class="testimonial-name">Samus Aran</p>
+							<p class="testimonial-title">Bounty Hunter</p>
+						</div>
 					</li>
-					<li>
-						<h2>4977</h2>
-						<h4>Satisfied Clients</h4>
+					<li class="client-item">
+						<input type="radio" name="client-select" value="john" id="john" class="radio-button john">
+						<label for="john" class="radio-label john"></label>
+						<label for="john" class="client-photo-label">
+							<img src="public/assets/john.jpg" alt="" class="client-item-photo">
+						</label>
+						<div class="testimonial">
+							<p class="testimonial-text">Ex-military on a journey of self discovery. His main goal is to take down the Shinra Corporation.</p>
+							<div class="title-header-icon">
+								<i class="testimonial-icon fa fa-gamepad" aria-hidden="true"></i>
+							</div>
+							<p class="testimonial-name">Cloud Strife</p>
+							<p class="testimonial-title">Soldier</p>
+						</div>
 					</li>
-					<li>
-						<h2>178</h2>
-						<h4>PSD files included</h4>
+				</ul>
+			</form>
+		</div>
+	</section>		
+	<section class="client-banner">
+		<div class="wrapper">
+			<p class="quote-text">Looking for a <span>quality and affordable</span> for your next project?</p>
+			<a href="" class="button quote-button">Get a quote</a>
+		</div>
+	</section>
+	<section id="blog" class="blog">
+		<div class="wrapper">
+			<div class="title-header">
+				<h2 class="title-header-title">Latest Blog</h2>
+				<div class="title-header-icon">
+					<i class="fa fa-gamepad"></i>
+				</div>
+				<p class="title-header-text">Tell Your Story</p>
+			</div>
+		</div>
+		<ul class="blog-gallery">
+			<li class="blog-item">
+				<img src="public/assets/slideshow1.jpg" alt="" class="blog-item-image blog-item-image-left">
+				<div class="blog-item-info">
+					<p class="blog-item-pre-title">Branding Design</p>
+					<h4 class="blog-item-title">Leeds Juicery</h4>
+					<p class="blog-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quae quasi? Odit nisi aliquid sequi beatae. Incidunt
+					reiciendis voluptatem dignissimos sint modi quae reprehenderit vero.</p>
+					<a href="" class="blog-item-more">Read More
+						<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+					</a>
+				</div>
+			</li>
+			<li class="blog-item">
+				<img src="public/assets/slideshow2.jpg" alt="" class="blog-item-image blog-item-image-left">
+				<div class="blog-item-info">
+					<p class="blog-item-pre-title">Motion Graphic</p>
+					<h4 class="blog-item-title">Hello Itaewon Project</h4>
+					<p class="blog-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quae quasi? Odit nisi aliquid sequi beatae. Incidunt
+					reiciendis voluptatem dignissimos sint modi quae reprehenderit vero./p>
+					<a href="" class="blog-item-more">Read More
+						<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+					</a>
+				</div>
+			</li>
+			<li class="blog-item">
+				<img src="public/assets/slideshow3.jpg" alt="" class="blog-item-image blog-item-image-right">
+				<div class="blog-item-info">
+					<p class="blog-item-pre-title">Lookbook Seasonal</p>
+					<h4 class="blog-item-title">Brooklyn</h4>
+					<p class="blog-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quae quasi? Odit nisi aliquid sequi beatae. Incidunt
+					reiciendis voluptatem dignissimos sint modi quae reprehenderit vero.</p>
+					<a href="" class="blog-item-more">Read More
+						<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+					</a>
+				</div>
+			</li>
+			<li class="blog-item">
+				<img src="public/assets/slideshow4.jpg" alt="" class="blog-item-image blog-item-image-right">
+				<div class="blog-item-info">
+					<p class="blog-item-pre-title">Photography</p>
+					<h4 class="blog-item-title">Maxi Dress</h4>
+					<p class="blog-item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quae quasi? Odit nisi aliquid sequi beatae. Incidunt
+					reiciendis voluptatem dignissimos sint modi quae reprehenderit vero.</p>
+					<a href="" class="blog-item-more">Read More
+						<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+					</a>
+				</div>
+			</li>
+		</ul>
+	</section>
+	<section id="shop" class="price">
+		<div class="wrapper">
+			<div class="title-header">
+				<h2 class="title-header-title">Pricing Plans</h2>
+				<div class="title-header-icon">
+					<i class="fa fa-gamepad"></i>
+				</div>
+				<p class="title-header-text">Get Your Plans</p>
+			</div>
+			<p class="price-sub-head">Register now
+			<ul class="plan-list">
+				<li class="plan-item">
+					<h4 class="plan-item-title">Basic Plan</h4>
+					<ul class="plan-item-feature-list">
+						<li class="plan-item-feature-item">15 Email Account</li>
+						<li class="plan-item-feature-item">100Gb Space</li>
+						<li class="plan-item-feature-item">1 Domain Name</li>
+						<li class="plan-item-feature-item">500Gb Bandwidth</li>
+						<li class="plan-item-feature-item">25 MySQL Databases</li>
+						<li class="plan-item-feature-item">Enhanced Security</li>
+					</ul>
+					<p class="plan-item-price">185</p>
+					<a href="" class="plan-item-button button">Get Plan</a>
+				</li>
+				<li class="plan-item">
+					<h4 class="plan-item-title">Business Plan</h4>
+					<ul class="plan-item-feature-list">
+						<li class="plan-item-feature-item">15 Email Account</li>
+						<li class="plan-item-feature-item">100Gb Space</li>
+						<li class="plan-item-feature-item">1 Domain Name</li>
+						<li class="plan-item-feature-item">500Gb Bandwidth</li>
+						<li class="plan-item-feature-item">25 MySQL Databases</li>
+						<li class="plan-item-feature-item">Enhanced Security</li>
+					</ul>
+					<p class="plan-item-price">235</p>
+					<a href="" class="plan-item-button button">Get Plan</a>
+				</li>
+				<li class="plan-item">
+					<h4 class="plan-item-title">Premium Plan</h4>
+					<ul class="plan-item-feature-list">
+						<li class="plan-item-feature-item">15 Email Account</li>
+						<li class="plan-item-feature-item">100Gb Space</li>
+						<li class="plan-item-feature-item">1 Domain Name</li>
+						<li class="plan-item-feature-item">500Gb Bandwidth</li>
+						<li class="plan-item-feature-item">25 MySQL Databases</li>
+						<li class="plan-item-feature-item">Enhanced Security</li>
+					</ul>
+					<p class="plan-item-price">185</p>
+					<a href="" class="plan-item-button button">Get Plan</a>
+				</li>
+				<li class="plan-item">
+					<h4 class="plan-item-title">Ultimate Plan</h4>
+					<ul class="plan-item-feature-list">
+						<li class="plan-item-feature-item">15 Email Account</li>
+						<li class="plan-item-feature-item">100Gb Space</li>
+						<li class="plan-item-feature-item">1 Domain Name</li>
+						<li class="plan-item-feature-item">500Gb Bandwidth</li>
+						<li class="plan-item-feature-item">25 MySQL Databases</li>
+						<li class="plan-item-feature-item">Enhanced Security</li>
+					</ul>
+					<p class="plan-item-price">235</p>
+					<a href="" class="plan-item-button button">Get Plan</a>
+				</li>
+			</ul>
+		</div>
+	</section>		
+	<footer class="main-footer">
+		<div class="wrapper">
+
+			<div class="footer-info">
+				<div class="footer-info-company-info">
+					<h4 class="company-info-title">Creative Agency from London - UK</h4>
+					<p class="company-info-description">Lorem Ipsum is sumply dummy text of the printing and typesetting industy. Lorem Ipsum has been the industy's standard dummy
+						text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<img src="public/assets/logo.png" alt="ZAP" class="company-info-logo">
+				</div>
+				<div class="footer-info-links">
+					<h4 class="footer-info-title">Links</h4>
+					<ul class="footer-info-links-list">
+						<li>
+							<a class="footer-info-links-item" href="">Theme features</a>
+						</li>
+						<li>
+							<a class="footer-info-links-item" href="">Page builder</a>
+						</li>
+						<li>
+							<a class="footer-info-links-item" href="">Private policy</a>
+						</li>
+						<li>
+							<a class="footer-info-links-item" href="">Shop ruler</a>
+						</li>
+						<li>
+							<a class="footer-info-links-item" href="">Services</a>
+						</li>
+						<li>
+							<a class="footer-info-links-item" href="">Gallery layout</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-info-twitter">
+					<h4 class="footer-info-title">Twitter Widget</h4>
+					<div class="twitter-wrapper">
+						<p class="twitter-tweet">Looking for an awesome
+							<span>creative</span> WordPress Theme? Esquise was updated and optimized to run even better. Find it here:
+							<a href="#">http://t.co/0WWEMQEQ48</a>
+						</p>
+						<p class="twitter-date">
+							<i class="fa fa-twitter" aria-hidden="true"></i> 01 day ago</p>
+					</div>
+					<div class="twitter-wrapper">
+						<p class="twitter-tweet">It is a long established fact that a reader will be distracted by the readable . Find it here:
+							<a href="#">http://t.co/0WWEMQEQ48</a>
+						</p>
+						<p class="twitter-date">
+							<i class="fa fa-twitter" aria-hidden="true"></i> 02 day ago
+						</p>
+					</div>
+				</div>
+				<div class="footer-info-instagram">
+					<h4 class="footer-info-title">Instagram</h4>
+					<ul class="instagram-photo-list">
+						<li class="instagram-photo-item">
+							<img src="" alt="" class="instagram-picture">
+							<div class="instagram-overlay">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</li>
+						<li class="instagram-photo-item">
+							<img src="" alt="" class="instagram-picture">
+							<div class="instagram-overlay">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</li>
+						<li class="instagram-photo-item">
+							<img src="" alt="" class="instagram-picture">
+							<div class="instagram-overlay">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</li>
+						<li class="instagram-photo-item">
+							<img src="" alt="" class="instagram-picture">
+							<div class="instagram-overlay">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</li>
+						<li class="instagram-photo-item">
+							<img src="" alt="" class="instagram-picture">
+							<div class="instagram-overlay">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</li>
+						<li class="instagram-photo-item">
+							<img src="" alt="" class="instagram-picture">
+							<div class="instagram-overlay">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-footnote">
+				<p class="footnote-copyright">© 2015 ZAP creative PSD template. Powered by WPELITE</p>
+				<ul class="footnote-icon-list">
+					<li class="footnote-icon-item">
+						<a href="">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="footnote-icon-item">
+						<a href="">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="footnote-icon-item">
+						<a href="">
+							<i class="fa fa-dribbble" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="footnote-icon-item">
+						<a href="">
+							<i class="fa fa-behance" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="footnote-icon-item">
+						<a href="">
+							<i class="fa fa-pinterest" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="footnote-icon-item">
+						<a href="">
+							<i class="fa fa-google-plus" aria-hidden="true"></i>
+						</a>
 					</li>
 				</ul>
 			</div>
 		</div>
-	</section>
-	<section id="portfolio" class="team">
-		<div class="section-header">
-			<h3>meet our team</h3>
-			<div class="icon-ham">
-				<img src="public/assets/hammer.png" alt="">
-			</div>
-			<h4>We Make Beautful Template</h4>
-		</div>
-		<div class="team-images wrapper">
-			<ul>
-				<li class="heather">
-					<h3>john snow</h3>
-					<h4>ceo/co-founder</h4>
-				</li>
-				<li class="ryan">
-					<h3>tyrion lannister</h3>
-					<h4>art director/co-founder</h4>
-				</li>
-				<li class="simon">
-					<h3>sansa stark</h3>
-					<h4>product manager/co-founder</h4>
-				</li>
-			</ul>
-		</div>
-		<div class="team-content wrapper">
-			<div class="team-con-text">
-				<h2>are you craxy man?</h2>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aspernatur dignissimos dicta vero, sunt error earum.
-					Laudantium ad minus rerum dolorum ipsam optio voluptatibus!</p>
-			</div>
-			<div class="team-button">
-				<a href="">join with us</a>
-			</div>
-		</div>
-	</section>
-	<section class="client">
-		<div class="wrapper">
-			<div class="section-header">
-				<h3>Our Happy Clients</h3>
-				<div class="icon-ham">
-					<img src="public/assets/hammer.png" alt="">
-				</div>
-				<h4>We Make Beautful Template</h4>
-			</div>
-			<div class="client-content">
-				<div class="client-images">
-					<img src="public/assets/wes.jpg" alt="">
-					<img src="public/assets/anne.jpg" alt="">
-					<img src="public/assets/john.jpg" alt="">
-				</div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolore autem laboriosam porro dolores tenetur rem provident,
-					error necessitatibus itaque?</p>
-				<div class="client-walker">
-					<img src="public/assets/triangle.png" alt="">
-					<p>white shadow walker</p>
-					<p>ceo/founder dell</p>
-				</div>
-				<div class="radio">
-					<input type="radio" name="client" id="radioButton">
-					<input type="radio" name="client" id="radioButton">
-					<input type="radio" name="client" id="radioButton">
-				</div>
-			</div>
-			<div class="client-mobile">
-				<div class="client1">
-					<img src="public/assets/wes.jpg" alt="">
-					<p>
-						<Strong>Ash Ketchum - </Strong> Pokemon master who never gives up when the going gets tough. Best friend is a pokemon named
-						pikchu. Thinks Gary is a piece of crap.</p>
-				</div>
-				<div class="client2">
-					<p>
-						<Strong>Samus Aran - </Strong> Space bounty hunter who has encountered numerous metriods. In her spare time she likes to save
-						the world from total annihilation.</p>
-					<img src="public/assets/anne.jpg" alt="">
-				</div>
-				<div class="client3">
-					<img src="public/assets/john.jpg" alt="">
-					<p>
-						<Strong>Cloud Strife - </Strong> Ex-military on a journey of self discovery. His main goal is to take down the Shinra Corporation.</p>
-				</div>
-			</div>
-		</div>
-		<div class="client-banner">
-			<div class="client-inner wrapper">
-				<p>looking for a
-					<span class="orange">quality and afforadable</span> for your next project?</p>
-				<a href="">Get a quote</a>
-			</div>
-		</div>
-	</section>
-	<section id="blog" class="blog">
-		<div class="section-header">
-			<h3>latest blog</h3>
-			<div class="icon-ham">
-				<img src="public/assets/hammer.png" alt="">
-			</div>
-			<h4>tell your story</h4>
-		</div>
-		<div class="blog-gallery">
-			<div class="blog-content">
-				<img class="clip-right" src="public/assets/slideshow1.jpg" alt="">
-			</div>
-			<div class="blog-content">
-				<div class="blog-text">
-					<h4>Branding design</h4>
-					<h2>Leeds Juicery</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quae quasi? Odit nisi aliquid sequi beatae. Incidunt
-						reiciendis voluptatem dignissimos sint modi quae reprehenderit vero.</p>
-				</div>
-			</div>
-			<div class="blog-content">
-				<img class="clip-right" src="public/assets/slideshow2.jpg" alt="">
-			</div>
-			<div class="blog-content">
-				<div class="blog-text">
-					<h4>Branding design</h4>
-					<h2>Hell Itwoea Project</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quae quasi? Odit nisi aliquid sequi beatae. Incidunt
-						reiciendis voluptatem dignissimos sint modi quae reprehenderit vero.</p>
-				</div>
-			</div>
-			<div class="blog-content">
-				<div class="blog-text">
-					<h4>Branding design</h4>
-					<h2>Brooklyn</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quae quasi? Odit nisi aliquid sequi beatae. Incidunt
-						reiciendis voluptatem dignissimos sint modi quae reprehenderit vero.</p>
-				</div>
-			</div>
-			<div class="blog-content">
-				<img class="clip-left" src="public/assets/slideshow3.jpg" alt="">
-			</div>
-			<div class="blog-content">
-				<div class="blog-text">
-					<h4>Branding design</h4>
-					<h2>Maxi Dress</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quae quasi? Odit nisi aliquid sequi beatae. Incidunt
-						reiciendis voluptatem dignissimos sint modi quae reprehenderit vero.</p>
-				</div>
-			</div>
-			<div class="blog-content">
-				<img class="clip-left" src="public/assets/slideshow4.jpg" alt="">
-			</div>
-		</div>
-	</section>
-	<section id="shop" class="price">
-		<div class=" section-header">
-			<h3>Pricing Plans</h3>
-			<div class="icon-ham">
-				<img src="public/assets/hammer.png" alt="">
-			</div>
-			<h4>Get Your Plans</h4>
-			<h3>register now
-				<span>or</span>try it free for 30 days</h3>
-		</div>
-		<div class="price-inner wrapper">
-			<div class="plans">
-				<div class="plan-box basic">
-					<h2>basic plan</h2>
-					<p>15 Email Account</p>
-					<p>100Gb Space
-						<span>
-							<i class="fa fa-check" aria-hidden="true"></i>
-						</span>
-					</p>
-					<p>1 Domain Name</p>
-					<p>500Gb Bandwidth
-						<span>
-							<i class="fa fa-check" aria-hidden="true"></i>
-						</span>
-					</p>
-					<p>25 MySQL Databases</p>
-					<p>Enhanced Security</p>
-					<h1>
-						<span class="dollar">$</span>185
-						<span class="month">monthy</span>
-					</h1>
-				</div>
-				<div class="plan-box business">
-					<h2>business plan</h2>
-					<p>15 Email Account</p>
-					<p>100Gb Space
-						<span>
-							<i class="fa fa-check" aria-hidden="true"></i>
-						</span>
-					</p>
-					<p>1 Domain Name</p>
-					<p>500Gb Bandwidth
-						<span>
-							<i class="fa fa-check" aria-hidden="true"></i>
-						</span>
-					</p>
-					<p>25 MySQL Databases</p>
-					<p>Enhanced Security</p>
-					<h1>
-						<span class="dollar">$</span>235
-						<span class="month">monthy</span>
-					</h1>
-				</div>
-				<div class="plan-box premium">
-					<h2>premium plan</h2>
-					<p>15 Email Account</p>
-					<p>100Gb Space
-						<span>
-							<i class="fa fa-check" aria-hidden="true"></i>
-						</span>
-					</p>
-					<p>1 Domain Name</p>
-					<p>500Gb Bandwidth
-						<span>
-							<i class="fa fa-check" aria-hidden="true"></i>
-						</span>
-					</p>
-					<p>25 MySQL Databases</p>
-					<p>Enhanced Security</p>
-					<h1>
-						<span class="dollar">$</span>185
-						<span class="month">monthy</span>
-					</h1>
-				</div>
-				<div class="plan-box ultimate">
-					<h2>ultimate plan</h2>
-					<p>15 Email Account</p>
-					<p>100Gb Space
-						<span>
-							<i class="fa fa-check" aria-hidden="true"></i>
-						</span>
-					</p>
-					<p>1 Domain Name</p>
-					<p>500Gb Bandwidth
-						<span>
-							<i class="fa fa-check" aria-hidden="true"></i>
-						</span>
-					</p>
-					<p>25 MySQL Databases</p>
-					<p>Enhanced Security</p>
-					<h1>
-						<span class="dollar">$</span>235
-						<span class="month">monthy</span>
-					</h1>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer>
-		<div class="main-footer wrapper">
-			<div class="foot-col foot-info">
-				<h3>
-					<span class="orange">creative agency from london - uk
-					</span>
-				</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui cumque excepturi aut magnam dolorem reprehenderit, porro
-					enim. Eum voluptatum aliquam officiis consequatur. Possimus minus, at ipsum molestiae maxime eligendi tenetur, voluptates
-					consectetur atque dicta ab vero esse similique perferendis obcaecati. </p>
-				<img src="public/assets/logo.png" alt="">
-			</div>
-			<div class="foot-none">
-				<div class="foot-col foot-links">
-					<h3>links</h3>
-					<p>theme features</p>
-					<p>page builder</p>
-					<p>private policy</p>
-					<p>shop ruler</p>
-					<p>services</p>
-					<p>gallery layout</p>
-				</div>
-				<div class="foot-col foot-twitter">
-					<h3>Twitter Widget</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem asperiores accusantium quos iure, repellat nobis provident
-						minus aut a. Sint hic sapiente earum consequuntur nostrum?</p>
-
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus inventore dolore animi iusto aliquam dolorum,
-						illum vitae, nam tempore modi ut laboriosam quas porro.</p>
-				</div>
-				<div class="foot-col foot-instagram">
-					<h3>Instagram</h3>
-					<div class="instagram-images">
-						<img class="iii" src="https://unsplash.it/70/70" alt="">
-						<img class="iii" src="https://unsplash.it/70/70" alt="">
-						<img class="iii" src="https://unsplash.it/70/70" alt="">
-						<img class="iii" src="https://unsplash.it/70/70" alt="">
-						<img class="iii" src="https://unsplash.it/70/70" alt="">
-						<img class="iii" src="https://unsplash.it/70/70" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footnote">
-			<p>c 2015 zap creative psd template. Powered by wpelite</p>
-			<div class="foot-social">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-				<i class="fa fa-futbol-o" aria-hidden="true"></i>
-				<i class="fa fa-behance" aria-hidden="true"></i>
-				<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-				<i class="fa fa-google-plus" aria-hidden="true"></i>
-			</div>
-		</div>
-	</footer>
-</body>
-
-	<script src="public/scripts/main.js"></script>
-	
+	</footer>	
 </body>
 </html>

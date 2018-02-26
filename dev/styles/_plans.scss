@@ -1,0 +1,108 @@
+//plans section
+.price-sub-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 40px 0 50px 0;
+}
+.price-sub-head span {
+    text-transform: capitalize;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-size: 0.7rem;
+    font-family: $crimson;
+    color: $mainColor50;
+}
+.plan-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 85px;
+}
+.plan-item {
+    width: calc(25% - 21px);
+    margin-right: 28px;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+    position: relative;
+    top: 0;
+    transition: all 0.4s ease-out;
+}
+.plan-item:last-child {
+    margin-right: 0;
+}
+.plan-item:hover {
+    top: -10px;
+    box-shadow: 0 7px 50px rgba(0,0,0,0.04);
+}
+.plan-item-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+    padding: 20px 0;
+    border-bottom: 1px solid #DDDDDD;
+    margin: 0;
+}
+.plan-item-feature-list {
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 15px;
+}
+.plan-item-feature-item {
+    color: $mainColor50;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 18px 0;
+}
+.plan-item-feature-item--checked::after {
+    content: '';
+    height: 8px;
+    width: 12px;
+    background-color: $accentColor;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    left: 5px;
+    clip-path: polygon(28% 0, 28% 62%, 100% 62%, 100% 100%, 0 100%, 0 0);
+    transform: rotate(-45deg);
+    border-radius: 1px;
+}
+.plan-item-price {
+    font-size: calc(1rem + 2vw);
+    font-weight: bold;
+    margin: 25px 0 35px 0;
+}
+.plan-item-price::before {
+    content: '$';
+    font-size: 1rem;
+    position: relative;
+    top: -18px;
+    left: -7px;
+}
+.plan-item-price::after {
+    content: 'monthly';
+    font-family: $crimson;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    position: relative;
+    left: 5px;
+}
+.plan-item .plan-item-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $mainColor;
+    color: $lightColor;
+    transition: $allTrans;
+    opacity: 0;
+    position: relative;
+    top: 6px;
+}
+.plan-item:hover .plan-item-button {
+    opacity: 1;
+}
+.plan-item .plan-item-button:hover {
+    color: $mainColor;
+    background-color: $lightColor;
+}

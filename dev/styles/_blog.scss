@@ -1,0 +1,69 @@
+//Blog Section
+.blog-gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.blog-item-image-left {
+    clip-path: polygon(100% 0, 100% 44%, 94% 50%, 100% 56%, 100% 100%, 0 100%, 0 0);
+}
+.blog-item-image-right {
+    clip-path: polygon(0 44%, 0 0, 100% 0, 100% 100%, 0 100%, 0% 56%, 6% 50%);
+    order: 2;
+}
+.blog-item {
+    display: flex;
+    width: 50%;
+    background-color: #EBEBEB;
+}
+.blog-item-image {
+    width: 50%;
+    object-fit: cover;
+    height: inherit;
+}
+.blog-item-info {
+    padding: 50px;
+    position: relative;
+}
+.blog-item-pre-title {
+    font-family: $crimson;
+    font-weight: bold;
+    margin: 0;
+    font-size: 0.8rem;
+}
+.blog-item-title {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+.blog-item-text {
+    font-weight: bold;
+    font-size: 0.6rem;
+    line-height: 2;
+    margin: 0;
+    margin-bottom: 15px;
+    color: $mainColor50;
+}
+.blog-item-more {
+    text-decoration: none;
+    margin: 0;
+    color: $mainColor;
+    transition: $allTrans;
+    position: absolute;
+    bottom: 40px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.blog-item-more i {
+    margin-left: 5px;    
+    transition: margin-left 0.2s ease-out;
+}
+.blog-item-more:hover {
+    color: $accentColor;
+}
+.blog-item-mored:hover i {
+    margin-left: 25px;
+}
