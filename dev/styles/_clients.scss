@@ -38,17 +38,17 @@
 }
 .wes {
     position: absolute;
-    left: calc(50% - 25px);
+    left: calc(50% - 45px);
     transform: translateX(-50%);
 }
 .anne {
     position: absolute;
-    left: 50%;
+    left: calc(50% - 4px);
     transform: translateX(-50%);
 }
 .john {
     position: absolute;
-    left: calc(50% + 25px);
+    left: calc(50% + 32px);
     transform: translateX(-50%);
 }
 .radio-button {
